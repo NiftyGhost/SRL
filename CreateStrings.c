@@ -25,4 +25,5 @@ int main ()
         character = getchar();
         putchar(character);
     }
+    return 0;
 }
