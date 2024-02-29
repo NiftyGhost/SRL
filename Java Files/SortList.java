@@ -1,11 +1,6 @@
 package app;
 
 import java.util.Scanner;
-import java.util.Random;
-import java.util.Date;
-import java.util.Timer;
-import java.util.Currency;
-import java.util.Dictionary;
 
 public class SortList {
     public static void main (String [] args) {
