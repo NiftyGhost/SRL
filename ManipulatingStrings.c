@@ -17,4 +17,12 @@ int main ()
 
     //char yukariComplement[] = "Yukari is a very in-depth character.";
     //puts(yukariComplement);
+
+    int character;
+    
+    while(character != '\n')
+    {
+        character = getchar();
+        putchar(character);
+    }
 }
