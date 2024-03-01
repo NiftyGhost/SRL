@@ -15,15 +15,13 @@ int main ()
     //OR
     printf("%s\n", userInput);
 
-    //char yukariComplement[] = "Yukari is a very in-depth character.";
-    //puts(yukariComplement);
-
-    int character;
-    
-    while(character != '\n')
+    char yukariComplement[] = "Yukari is a very in-depth character.";
+    int n = 0;
+    while (yukariComplement[n] != '\0')
     {
-        character = getchar();
-        putchar(character);
+        putchar(yukariComplement[n]);
+        n++;
     }
+    
     return 0;
 }
