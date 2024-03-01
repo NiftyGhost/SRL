@@ -4,7 +4,7 @@
 int main()
 {
 char firstString[] = "I love Yukari! ";
-    char secondString[] = "She's just so cute!\n";
+    char secondString[] = "She's has so much personality!\n";
     char buffer[64];
 
     strcpy(buffer,firstString);
