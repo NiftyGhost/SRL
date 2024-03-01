@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+	char names[8][9] = {
+		"Yukari",
+		"Mitsuru",
+		"Fuuka",
+		"Akihiko",
+		"Junpei",
+    "Koromaru",
+    "Ken",
+    "Shinjiro"
+	};
+	int x;
+
+	for(x=0;x<8;x++)
+		printf("%s\n",names[x]);
+
+	return(0);
+}
