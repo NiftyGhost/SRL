@@ -20,6 +20,7 @@ int main()
 
         //Goes to the next address of the array
         ptr++;
+        //or ptr = ptr + 1;
     }
 
     return 0;
