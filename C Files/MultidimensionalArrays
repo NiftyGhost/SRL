@@ -8,9 +8,9 @@ int main()
 		"Fuuka",
 		"Akihiko",
 		"Junpei",
-    "Koromaru",
-    "Ken",
-    "Shinjiro"
+    		"Koromaru",
+    		"Ken",
+    		"Shinjiro"
 	};
 	int x;
 
