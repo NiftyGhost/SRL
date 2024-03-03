@@ -2,17 +2,20 @@
 
 int main()
 {
-  int pokey = 2009;
-  int *p;
+  int a,b;
+    int *ptr;
 
-  p = &pokey;
-  //Both print out the address of the 'pokey' variable.
-  printf("The address of 'pokey' is %p\n", &pokey);
-  printf("The address of 'p' is %p\n", p);
+    //Assigns the address of 'a' to the pointer
+    ptr = &a;
+    //Assigns the value '1234' to the address in the pointer
+    *ptr = 1234;
+    //Assigns the address of 'b' to the pointer
+    ptr = &b;
+    //Assigns the value '4567' to the address in the pointer
+    *ptr = 4567;
 
-  //Both print out the value of the 'pokey' variale.
-  printf("The value of 'pokey' is %d\n", pokey);
-  printff("The valueof 'p' is %d\n", *p);
+    //Print the value of 'a' (1234) and 'b' (4567)
+    printf("A is %d and B is %d\n",a,b);
   
   return 0;
 }
